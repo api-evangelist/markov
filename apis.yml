@@ -1,7 +1,17 @@
 aid: markov
 name: Markov
-description: Markov is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Markov (Markov Studios) is a San Francisco-based Y Combinator (Summer 2026)
+  startup building data and environments for training computer-use AI. The
+  company captures how people actually use computers - screen recordings with
+  synchronized mouse and keyboard inputs, annotations, and open datasets across
+  real workflows in tools like Salesforce, Blender, and Photoshop, plus gaming
+  data from Valorant, Minecraft, and GTA. Markov sources high-quality tasks and
+  data to train the next generation of computer-use and reinforcement-learning
+  models, releasing much of its work in public on Hugging Face (150k+ dataset
+  downloads). Founded in 2026 by Dev Mandal (CEO) and Harish Ashok, Markov
+  distributes its datasets through Hugging Face rather than a first-party API;
+  this profile currently tracks no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/markov/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,48 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Summer 2026
+x-founded: '2026'
+x-hq: San Francisco, CA
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://markovstudios.com/og.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Data
+- Computer Use
+- Reinforcement Learning
+- Datasets
+- Training Data
 apis: []
+common:
+- type: DomainSecurity
+  url: security/markov-domain-security.yml
+- type: Website
+  url: https://markovstudios.com
+- type: HuggingFace
+  url: https://huggingface.co/markov-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
