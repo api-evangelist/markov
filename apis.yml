@@ -13,6 +13,9 @@ description: >-
   distributes its datasets through Hugging Face rather than a first-party API;
   this profile currently tracks no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/markov/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Founded in 2026 by Dev Mandal (CEO) and Harish Ashok, Markov distributes its datasets through Hugging Face rather than a first-party API; this profile currently tracks no public API surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
